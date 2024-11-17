@@ -1,1 +1,23 @@
+/* Header styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.header-icons .icon img {
+  max-height: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
